@@ -251,6 +251,9 @@ header{
 					#contact div{
         display:flex;
     }
+						#nums div{
+        display:flex;
+    }
 } 
 
 
