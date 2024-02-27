@@ -239,7 +239,12 @@ header{
     #intro div{
         display:flex;
     }
-
+  #plan div{
+        display:flex;
+    }
+				#intro div{
+        display:flex;
+    }
 } 
 
 
