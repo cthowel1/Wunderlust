@@ -57,12 +57,12 @@ table {
   --teal: #55bcd5
   --purple: #9b26b0
   --blue: #499bd2
-  --dark gray: #222222
-  --light gray: #eaeaea
+  --dark-gray: #222222
+  --light-gray: #eaeaea
   --white: #ffffff
   --black: #000000
- --font-type: monsterrat /*h4,p,q, small, nav, button, form*/
- --font-type: molle /*(h1, h2, h3)*/
+ --font-type: monsterrat
+ --font-type: molle 
 }
 
 /*skip link content*/
@@ -93,12 +93,12 @@ body{
     line-height: 1.3;
 }
 main{
-    background-color: var(--white);
+    background-color: #ffffff;
 }
 header{
 width:100%;
 display: flex;
-background-color:gra;
+background-color: #222222;
 padding:0 1rem;
 }
 #logo{
@@ -114,7 +114,7 @@ h1, h2, h3{
     font-family: molle; 
 }
 nav a:hover .active{
-    background-color: var(--yellow);
+    background-color:#f6d64;
 }
 /* MENU (NAV) STYLES */
 /*responsive menu code from (with changes made to match mockups): https://css-tricks.com/three-css-alternatives-to-javascript-navigatio */
@@ -238,20 +238,21 @@ header{
     }
     #intro div{
         display:flex;
+	    grid-template: (1/ span2);
     }
   #plan div{
         display:flex;
     }
-				#testimonials div{
+#testimonials div{
         display:flex;
     }
-					#about div{
+#about div{
         display:flex;
     }
-					#contact div{
+#contact div{
         display:flex;
     }
-						#nums div{
+#nums div{
         display:flex;
     }
 } 
@@ -282,21 +283,22 @@ nav ul{
 }
 #intro div{
     display:flex;
+	width: 100%;
 }
 
   #plan div{
         display:flex;
     }
-				#testimonials div{
+#testimonials div{
         display:flex;
     }
-					#about div{
+#about div{
         display:flex;
     }
-					#contact div{
+#contact div{
         display:flex;
     }
-						#nums div{
+#nums div{
         display:flex;
     }
 }
@@ -317,7 +319,8 @@ nav ul{
     nav ul{
         display:flex;
     }
-  
+  footer{
+	  width: 100%;
 
 
 }
