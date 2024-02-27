@@ -284,6 +284,21 @@ nav ul{
     display:flex;
 }
 
+  #plan div{
+        display:flex;
+    }
+				#testimonials div{
+        display:flex;
+    }
+					#about div{
+        display:flex;
+    }
+					#contact div{
+        display:flex;
+    }
+						#nums div{
+        display:flex;
+    }
 }
 
 
@@ -302,9 +317,7 @@ nav ul{
     nav ul{
         display:flex;
     }
-    #intro div{
-        display:flex;
-    }
+  
 
 
 }
