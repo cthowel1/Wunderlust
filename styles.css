@@ -180,7 +180,7 @@ form{
 
 /*FORM STYLES:: INPUT STYLES */
 /*custom input styles from https://moderncss.dev/custom-css-styles-for-form-inputs-and-textareas */
-input[ type=text], select, textarea{
+input[ type=text], fname, lname, select, textarea{
     width:100%;
     padding:0%;
     border: 1px solid var(--purple);
